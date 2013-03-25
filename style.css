@@ -54,20 +54,31 @@ body {
   text-shadow: none;
 }
 
+.fw-splash h1,
+.fw-splash h2 {
+  font-family: "adobe-garamond-pro",sans-serif;
+  text-align: center;
+  text-shadow: -1px 0px 1px #000000;
+  filter: dropshadow(color=#00000, offx=-1, offy=0);
+}
+
+.fw-splash h2 {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.6em;
+}
+
 .fw-splash h1 {
   text-transform:uppercase;
-  font-family: "adobe-garamond-pro",sans-serif;
-  font-weight: normal;
-  text-align: center;
+  font-weight: normal !important;
   font-size: 2em;
   letter-spacing: .3em;
-  text-shadow: -1px 0px 1px #00000;
-  filter: dropshadow(color=#00000, offx=-1, offy=0);
 }
 
 .fw-splash .hero-unit > h1 > img {
   vertical-align: -17%;
   height: 2em;
+  margin-right: .3em;
 }
 
 .fw-splash {
@@ -98,9 +109,10 @@ body {
 
 .slideshow {
   position: relative;
+  background-size: 100%;
+  height: 50%;
 }
 .slideshow > img {
-  position: absolute;
   left: 0;
   top: 0;
 }

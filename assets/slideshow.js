@@ -23,7 +23,8 @@ $(document).ready( function() {
 */
 
     var slide_cur = $(".slideshow>img:eq(" + slide_pos + ")");
-    slide_cur.fadeOut(2000);
+    $(".slideshow").css("background-image","url('" + slide_cur.attr('src') + "')");
+    slide_cur.fadeOut(0);
 
     slide_pos = next_slide_pos;
 
