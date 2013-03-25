@@ -1,0 +1,88 @@
+.center-navbar .nav,
+.center-navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.center-navbar .navbar-inner {
+  text-align:center;
+  min-height: 120px;
+  font-size: 1em;
+  text-transform:uppercase;
+}
+
+.navbar-inner {
+  background-color: transparent;
+  background-image: none;
+  background-repeat: none;
+  border: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: none;
+  filter: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar .nav > li > a {
+  color: black;
+  text-decoration: none;
+  text-shadow: none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.fw-splash h1 {
+  text-transform:uppercase;
+  font-family: "adobe-garamond-pro",sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: .3em;
+  text-shadow: -1px 0px 1px #00000;
+  filter: dropshadow(color=#00000, offx=-1, offy=0);
+}
+
+.fw-splash .hero-unit > h1 > img {
+  vertical-align: -17%;
+  height: 2em;
+}
+
+.fw-splash {
+  color: #ffcc99 !important;
+}
+
+.fw-splash a {
+  color: #ffcc99 !important;
+}
+
+.fw-splash .span11,
+.fw-splash .span9,
+.fw-splash .span6,
+.fw-splash .span4
+ {
+  float: none;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.fw-splash .hero-unit {
+  background-color: transparent;
+}
+
+.inactive_slide {
+  display: none;
+}
+
+.slideshow {
+  position: relative;
+}
+.slideshow > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
