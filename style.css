@@ -83,6 +83,9 @@ body {
 
 .fw-splash {
   color: #ffcc99 !important;
+  background-color: #000;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .fw-splash a {
