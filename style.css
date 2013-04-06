@@ -244,3 +244,11 @@ h1, h2, h3, h4, h5 {
 	color: #99becd;
 }
 
+@media (max-width: 765px) {
+  .fw-home-images p {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid black;
+  }
+}
+
