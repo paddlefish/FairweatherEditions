@@ -143,10 +143,12 @@ h1, h2, h3, h4, h5 {
   top: 0;
 }
 
+.fw-how-we-work,
 .fw-home {
   background-color: #a8a097;
 }
 
+.fw-how-we-work .nav,
 .fw-home .nav {
   background-color: #a8a097;
   border-bottom: 1px solid black;
@@ -157,14 +159,17 @@ h1, h2, h3, h4, h5 {
 
 }
 
+.fw-how-we-work .nav li,
 .fw-home .nav li {
   margin: .8em 1.2em 0 1.2em;
 }
 
+.fw-how-we-work .nav li a,
 .fw-home .nav li a {
   padding-bottom: 2px;
 }
 
+.fw-how-we-work .hero-unit p,
 .fw-home .hero-unit p {
   font-style: italic;
   font-family: "adobe-garamond-pro",sans-serif;
@@ -176,16 +181,20 @@ h1, h2, h3, h4, h5 {
   font-weight: lighter;
 }
 
+.fw-how-we-work .hero-unit,
 .fw-home .hero-unit {
   background-color: transparent;
 }
 
+.fw-how-we-work h1,
+.fw-how-we-work h2,
 .fw-home h1,
 .fw-home h2 {
   text-align: center;
   color: #474847;
 }
 
+.fw-how-we-work h1,
 .fw-home h1 {
   text-transform:uppercase;
   font-weight: normal !important;
@@ -193,12 +202,14 @@ h1, h2, h3, h4, h5 {
   letter-spacing: .1em;
 }
 
+.fw-how-we-work h2,
 .fw-home h2 {
   font-style: italic;
   font-weight: lighter;
   font-size: 1.6em;
 }
 
+.fw-how-we-work .hero-unit > h1 > img,
 .fw-home .hero-unit > h1 > img {
   vertical-align: -17%;
   height: 2em;
@@ -252,3 +263,6 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+.fw-how-we-work .process_entry {
+  margin-bottom: 2em;
+}
