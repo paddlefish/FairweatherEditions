@@ -223,3 +223,24 @@ h1, h2, h3, h4, h5 {
   line-height: 2em;
   color: #474847;
 }
+
+/* about */
+
+.about_someone > div {
+	padding: 30px;
+}
+
+.about_someone h1,
+.process_entry h1 {
+	font-size: 2em;
+}
+
+.about_someone {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.about_someone a {
+	color: #99becd;
+}
+
