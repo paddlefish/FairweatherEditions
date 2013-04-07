@@ -3,6 +3,10 @@ body {
   padding-bottom: 40px;
 }
 
+.fw-below-nav {
+  margin-top: 5em;
+}
+
 .fw-splash {
   color: #ffcc99 !important;
   background-color: #584a2a;
@@ -151,6 +155,19 @@ h1, h2, h3, h4, h5 {
 .fw-how-we-work .nav,
 .fw-home .nav {
   background-color: #a8a097;
+}
+
+.fw-dark-matter {
+  background-color: #333333;
+}
+
+.fw-dark-matter .nav {
+  background-color: #333333;
+}
+
+.fw-how-we-work .nav,
+.fw-dark-matter .nav,
+.fw-home .nav {
   border-bottom: 1px solid black;
   width: 90%;
   color: #5c5a58;
@@ -160,16 +177,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .fw-how-we-work .nav li,
+.fw-dark-matter .nav li,
 .fw-home .nav li {
   margin: .8em 1.2em 0 1.2em;
 }
 
 .fw-how-we-work .nav li a,
+.fw-dark-matter .nav li a,
 .fw-home .nav li a {
   padding-bottom: 2px;
 }
 
 .fw-how-we-work .hero-unit p,
+.fw-dark-matter .hero-unit p,
 .fw-home .hero-unit p {
   font-style: italic;
   font-family: "adobe-garamond-pro",sans-serif;
@@ -182,6 +202,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .fw-how-we-work .hero-unit,
+.fw-dark-matter .hero-unit,
 .fw-home .hero-unit {
   background-color: transparent;
 }
@@ -195,6 +216,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .fw-how-we-work h1,
+.fw-dark-matter h1,
 .fw-home h1 {
   text-transform:uppercase;
   font-weight: normal !important;
@@ -203,6 +225,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .fw-how-we-work h2,
+.fw-dark-matter h2,
 .fw-home h2 {
   font-style: italic;
   font-weight: lighter;
@@ -210,6 +233,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .fw-how-we-work .hero-unit > h1 > img,
+.fw-dark-matter .hero-unit > h1 > img,
 .fw-home .hero-unit > h1 > img {
   vertical-align: -17%;
   height: 2em;
@@ -263,6 +287,65 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-.fw-how-we-work .process_entry {
+.fw-how-we-work .process_entry,
+.fw-dark-matter .process_entry {
   margin-bottom: 2em;
+}
+
+.fw-dark-matter-vertcal-pad {
+  padding-top: 10px;
+}
+
+.fw-dark-matter p {
+  color: #ffffff;
+}
+
+.fw-dark-matter .fw-dark-matter-quote-attribution {
+  color: #cccccc;
+  font-family: "myriad-pro",sans-serif;
+  text-align: center;
+  line-height: 80%;
+  font-size:80%;
+}
+
+.fw-dark-matter .fw-dark-matter-quote {
+  color: #999999;
+  font-style: italic;
+  font-family: "adobe-garamond-pro",sans-serif;
+  text-align: center;
+  line-height: 80%;
+  margin-top: .5em;
+}
+
+.fw-dark-matter h1,
+.fw-dark-matter h2 {
+  text-align: center;
+  font-family: "adobe-garamond-pro",sans-serif;
+}
+
+.fw-dark-matter h1 {
+  color: #ffffff;
+  margin-bottom: 1.1em;
+}
+
+.fw-dark-matter h2 {
+  color: #cccccc;
+  font-size:120%;
+  line-height: 160%;
+}
+
+.fw-dark-matter h3 {
+  color: #cccccc;
+  font-family: "myriad-pro",sans-serif;
+  text-align: right;
+  font-size:100%;
+  font-weight: lighter;
+}
+
+.fw-dark-matter p {
+  color: #999999;
+}
+
+.fw-dark-matter .fw-first-paragraph p:first-child:first-letter {
+  color: #ffffff;
 }
