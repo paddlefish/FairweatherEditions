@@ -253,10 +253,23 @@ h1, h2, h3, h4, h5 {
   font-size: 1.5em;
 }
 
+.fw-home-images a,
+.fw-home-images a:visited,
 .fw-home-images {
   font-family: "adobe-garamond-pro",sans-serif;
   line-height: 2em;
+  text-decoration: none;
   color: #474847;
+}
+
+.fw-home-images a:hover h2,
+.fw-home-images a:hover p {
+  color: #222;
+}
+
+.fw-home-images a:hover img {
+  border: 2px solid blue;
+  margin: -2px;
 }
 
 /* about */
@@ -344,8 +357,11 @@ h1, h2, h3, h4, h5 {
 
 .fw-dark-matter p {
   color: #999999;
+  font-family: "adobe-garamond-pro",sans-serif;
+  font-size: 120%;
 }
 
-.fw-dark-matter .fw-first-paragraph p:first-child:first-letter {
+.fw-first-paragraph:first-letter {
   color: #ffffff;
+  font-size: 140%;
 }
