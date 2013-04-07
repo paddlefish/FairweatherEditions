@@ -10,7 +10,7 @@ body {
 .fw-splash {
   color: #ffcc99 !important;
   background-color: #584a2a;
-  background: url('assets/title_background.jpg');
+  background: url('assets/title_background_progressive.jpg');
   background-repeat: repeat;
   background-size: 1420px 1120px;
   max-width: 1200px;
