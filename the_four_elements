@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fairweather Editions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//use.typekit.net/zsn2bep.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <link href="bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <style>body { background-color: #333333; }</style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.png">
+  </head>
+
+  <body class="fw-the-four-elements">
+
+    <div class="center-navbar navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+	  <ul class="nav">
+	    <li><a href=".">Home</a></li>
+	    <li><a href="about_us">About Us</a></li>
+	    <li class="active"><a href="collections">The Collections > Dark Matter</a></li>
+	    <li><a href="how_we_work">How We Work</a></li>
+	    <li><a href="contact">Contact</a></li>
+	  </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid fw-below-nav">
+      <div class="row-fluid">
+	<div class="fw-home-fluid-pad">
+	  <div class="span8">
+	    <div class="row-fluid">
+	      <div class="fw-home-fluid-pad">
+		<div class="span12">
+		  <img src="assets/four_elements_spread.jpg" />
+		  <p>
+		    Each book contains 20 hand printed and tipped in photographs. A total of 80 original images.
+		  </p>
+		</div>
+	      </div>
+	    </div>
+	    <div class="row-fluid">
+	      <div class="fw-home-fluid-pad fw-the-four-elements-vertcal-pad">
+		<div class="span4">
+		  <img src="assets/four_elements_bookends.jpg" />
+		  <p>
+		    Hand stitched signatures bound in the traditional Italian style.  Imported marbled end papers All in a handemade slip case.
+		  </p>
+		</div>
+		<div class="span8">
+		  <img src="assets/four_elements_standing.jpg" />
+		  <p>
+		    The Symbolism of the Glass Insets. Sand (Earth) is created by the action of ocean waves (Water). The sand melts into glass under the high heat (Fire) and the action of the bellows (Air). Thus glass is the symbol that represents all four elements.
+		  </p>
+		</div>
+	      </div>
+	    </div>
+	    <div class="row-fluid">
+	      <div class="fw-home-fluid-pad">
+		<div class="span12">
+		  <p class="fw-the-four-elements-quote">"We've looked and looked, but after all where are we?"</p>
+		  <p class="fw-the-four-elements-quote-attribution">Robert Frost from "The Starsplitter"</p>
+		</div>
+	      </div>
+	    </div>
+	  </div><!--/span-->
+	</div><!--/fw-home-fluid-pad-->
+	<div class="span4">
+	  <h1>The Four Elements</h1>
+	  <h2>
+	  </h2>
+	  <h3>
+	    
+	  </h3>
+	  <p class="fw-first-paragraph">
+	  </p>
+
+	  <p>
+	  </p>
+	</div>
+      </div><!--/row-->
+
+    </div><!--/.fluid-container-->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="jquery/jquery.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-transition.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-alert.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-modal.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-tab.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-tooltip.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-popover.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-button.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-collapse.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-carousel.js"></script>
+    <script src="bootstrap/assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
