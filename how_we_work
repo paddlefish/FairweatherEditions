@@ -48,7 +48,7 @@
     <div class="container-fluid">
         <div class="span12">
           <div class="hero-unit">
-            <h1>Fairweather<img src="assets/logo-bw.png" />Editions</h1>
+            <h1>Fairweather<img src="assets/logo_bw.png" />Editions</h1>
 	    <p>How We Work</p>
           </div>
         </div><!--/span-->
@@ -72,13 +72,13 @@
 	  <div class="span8">
 	    <div class="row-fluid">
 	      <div class="span4">
-		<img src="assets/howto-platinum-film.jpg" />
+		<img src="assets/howto_platinum_film.jpg" />
 	      </div>
 	      <div class="span4">
-		<img src="assets/howto-platinum-coating.jpg" />
+		<img src="assets/howto_platinum_coating.jpg" />
 	      </div>
 	      <div class="span4">
-		<img src="assets/howto-platinum-drying.jpg" />
+		<img src="assets/howto_platinum_drying.jpg" />
 	      </div>
 	    </div>
 	    <div class="row-fluid">
@@ -106,13 +106,13 @@
 	  <div class="span8">
 	    <div class="row-fluid">
 	      <div class="span4">
-		<img src="assets/howto-gum-original.jpg" />
+		<img src="assets/howto_gum_original.jpg" />
 	      </div>
 	      <div class="span4">
-		<img src="assets/howto-gum-exposure.jpg" />
+		<img src="assets/howto_gum_exposure.jpg" />
 	      </div>
 	      <div class="span4">
-		<img src="assets/howto-gum-stages.jpg" />
+		<img src="assets/howto_gum_stages.jpg" />
 	      </div>
 	    </div>
 	    <p>
@@ -138,13 +138,13 @@
 	  <div class="span8">
 	    <div class="row-fluid">
 	      <div class="span4">
-		<img src="assets/howto-gravure-film.jpg" />
+		<img src="assets/howto_gravure_film.jpg" />
 	      </div>
 	      <div class="span4">
-		<img src="assets/howto-gravure-washout.jpg" />
+		<img src="assets/howto_gravure_washout.jpg" />
 	      </div>
 	      <div class="span4">
-		<img src="assets/howto-gravure-print.jpg" />
+		<img src="assets/howto_gravure_print.jpg" />
 	      </div>
 	    </div>
 	    <p>

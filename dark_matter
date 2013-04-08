@@ -54,17 +54,17 @@
 	    <div class="row-fluid">
 	      <div class="fw-home-fluid-pad">
 		<div class="span12">
-		  <img src="assets/dark-matter-open.jpg" />
+		  <img src="assets/dark_matter_open.jpg" />
 		</div>
 	      </div>
 	    </div>
 	    <div class="row-fluid">
 	      <div class="fw-home-fluid-pad fw-dark-matter-vertcal-pad">
 		<div class="span7">
-		  <img src="assets/dark-matter-spread.jpg" />
+		  <img src="assets/dark_matter_spread.jpg" />
 		</div>
 		<div class="span5">
-		  <img src="assets/dark-matter-photo.jpg" />
+		  <img src="assets/dark_matter_photo.jpg" />
 		</div>
 	      </div>
 	    </div>

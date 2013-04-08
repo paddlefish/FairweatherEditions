@@ -49,7 +49,7 @@
       <div class="row-fluid">
         <div class="span12">
           <div class="hero-unit">
-            <h1>Fairweather<img src="assets/logo-bw.png" />Editions</h1>
+            <h1>Fairweather<img src="assets/logo_bw.png" />Editions</h1>
 	    <p>About Us</p>
           </div>
         </div><!--/span-->
@@ -57,7 +57,7 @@
 
       <div class="row-fluid about_someone">
 	<div class="span3">
-	<img src="assets/portrait-cy.jpg" />
+	<img src="assets/portrait_cy.jpg" />
 	</div>
 	<div class="span9">
 	  <h1>Cy DeCosse - Photographer</h1>
@@ -74,7 +74,7 @@
       </div>
       <div class="row-fluid about_someone">
 	<div class="span3">
-	  <img src="assets/portrait-keith.jpg" />
+	  <img src="assets/portrait_keith.jpg" />
 	</div>
 	<div class="span9">
 	  <h1>Keith Taylor - Printer</h1>
@@ -89,7 +89,7 @@
       </div>
       <div class="row-fluid about_someone">
 	<div class="span3">
-	  <img src="assets/portrait-bernie.jpg" />
+	  <img src="assets/portrait_bernie.jpg" />
 	</div>
 	<div class="span9">
 	  <h1>Bernie Maehren - Manager</h1>
