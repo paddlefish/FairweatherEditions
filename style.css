@@ -361,7 +361,60 @@ h1, h2, h3, h4, h5 {
   font-size: 120%;
 }
 
-.fw-first-paragraph:first-letter {
+.fw-dark-matter .fw-first-paragraph:first-letter {
   color: #ffffff;
   font-size: 140%;
+}
+
+.fw-the-four-elements {
+  background-color: #aba39b;
+}
+
+
+.fw-the-four-elements .nav {
+  background-color: #aba39b;
+}
+
+.fw-the-four-elements p {
+  color: #5d5852;
+  font-style: italic;
+  font-size: 120%;
+  font-family: "adobe-garamond-pro",sans-serif;
+  margin-top: .5em;
+}
+
+.fw-the-four-elements h1 {
+  color: #5d5852;
+  font-weight: lighter;
+  margin-bottom: 1.1em;
+  text-align: center;
+  text-transform:uppercase;
+}
+
+.fw-the-four-elements h2 {
+  color: #5d5852;
+  font-style: italic;
+  font-size:170%;
+  font-weight: lighter;
+  text-align: center;
+  text-transform:uppercase;
+}
+
+.fw-the-four-elements h3 {
+  color: #5d5852;
+  font-size:150%;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.fw-the-four-elements .fw-first-paragraph:first-letter {
+  font-size: 220%;
+}
+
+.fw-the-four-elements .fw-right-side p {
+  font-size: 150%;
+  font-style: normal;
+  line-height: 150%;
 }
