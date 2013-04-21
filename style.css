@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .about_someone a {
-	color: #99becd;
+	color: #4455cd;
 }
 
 @media (max-width: 765px) {
@@ -366,6 +366,12 @@ h1, h2, h3, h4, h5 {
   font-size: 140%;
 }
 
+//------------------------------------------------------------------------------
+//
+// @mark The Four Greek Elements
+//
+//------------------------------------------------------------------------------
+
 .fw-the-four-elements {
   background-color: #aba39b;
 }
@@ -417,4 +423,68 @@ h1, h2, h3, h4, h5 {
   font-size: 150%;
   font-style: normal;
   line-height: 150%;
+}
+
+//------------------------------------------------------------------------------
+//
+// @mark One Dozen Roses
+//
+//------------------------------------------------------------------------------
+
+.fw-one-dozen-roses {
+  background-color: #aba49b;
+}
+
+
+.fw-one-dozen-roses .nav {
+  background-color: #aba49b;
+}
+
+.fw-one-dozen-roses p {
+  color: #5d5852;
+  font-style: italic;
+  font-size: 120%;
+  font-family: "adobe-garamond-pro",sans-serif;
+  margin-top: .5em;
+}
+
+.fw-one-dozen-roses h1 {
+  color: #5d5852;
+  font-weight: lighter;
+  margin-bottom: 1.1em;
+  text-align: center;
+  text-transform:uppercase;
+}
+
+.fw-one-dozen-roses h2 {
+  color: #5d5852;
+  font-style: italic;
+  font-size:170%;
+  font-weight: lighter;
+  text-align: center;
+  text-transform:uppercase;
+}
+
+.fw-one-dozen-roses h3 {
+  color: #5d5852;
+  font-size:150%;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.fw-one-dozen-roses .fw-first-paragraph:first-letter {
+  font-size: 220%;
+}
+
+.fw-one-dozen-roses .fw-right-side p {
+  font-size: 150%;
+  font-style: normal;
+  line-height: 150%;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
