@@ -488,3 +488,48 @@ video {
   width: 100%;
   height: auto;
 }
+
+.contact_form {
+  margin-top: 100px;
+  max-width: 80em;
+  margin: 100px auto;
+  font-size: 16pt;
+  font-weight: lighter;
+  font-family: "myriad-pro",sans-serif;
+}
+
+.contact_form h1 {
+  font-family: "adobe-garamond-pro",sans-serif;
+  margin-top: 1em;
+  line-height: 1em;
+}
+
+.contact_form input[type='text'],
+.contact_form select,
+.contact_form textarea {
+  width:100%;
+}
+
+.contact_form input[type='text'],
+.contact_form textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.contact_form .address {
+	white-space: pre-line;
+	margin: 1em 0 0 2em;
+}
+.contact_form .address:first-line {
+	font-weight: bold;
+	line-height: 2em;
+}
+
+.contact_form textarea,
+.contact_form input {
+	background-color: #cdcdcd;
+}
+#contact_error {
+	color: #ffcd55;
+}
