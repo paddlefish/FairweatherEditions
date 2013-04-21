@@ -91,13 +91,8 @@ Minneapolis, MN 55419
 </div>
 
 </div>
-<div class="span5">
+<div class="span5 fw_contact_form">
 
-
-<!--<form name="contactform" method="post" action="/cgi-bin/contact.php"> -->
-<div style="display:none;" id="item_info" class="purchase_preview">
-<p>You have expressed interest in this work.</p>
-</div>
 <h1>Inquiry or Purchase</h1>
 To purchase a piece, or to make an inquiry, please contact us via this form, or simply
 send an email to studio.41@mac.com.

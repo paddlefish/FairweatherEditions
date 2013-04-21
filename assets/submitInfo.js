@@ -1,4 +1,14 @@
 $(document).ready( function() {
+
+  if( window.location.hash == "#Purchase_One_Dozen_Roses" ) {
+    $("#comments_input").val("I would like to purchase One Dozen Roses.");
+  }
+  if( window.location.hash == "#Purchase_The_Four_Greek_Elements" ) {
+    $("#comments_input").val("I would like to purchase The Four Greek Elements.");
+  }
+  if( window.location.hash == "#Purchase_Dark_Matter" ) {
+    $("#comments_input").val("I would like to purchase Dark Matter by Keith Taylor.");
+  }
   $('#submit_button').click( function() {
     var valid = true;
     $("form div").attr("style", "" );
