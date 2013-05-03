@@ -160,11 +160,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .fw-how-we-work,
+.fw-contact,
 .fw-home {
   background-color: #a8a097;
 }
 
 .fw-how-we-work .nav,
+.fw-contact .nav,
 .fw-home .nav {
   background-color: #a8a097;
 }
@@ -179,6 +181,7 @@ h1, h2, h3, h4, h5 {
 
 .fw-how-we-work .nav,
 .fw-dark-matter .nav,
+.fw-contact .nav,
 .fw-home .nav {
   border-bottom: 1px solid black;
   width: 90%;
@@ -190,12 +193,14 @@ h1, h2, h3, h4, h5 {
 
 .fw-how-we-work .nav li,
 .fw-dark-matter .nav li,
+.fw-contact .nav li,
 .fw-home .nav li {
   margin: .8em 1.2em 0 1.2em;
 }
 
 .fw-how-we-work .nav li a,
 .fw-dark-matter .nav li a,
+.fw-contact .nav li a,
 .fw-home .nav li a {
   padding-bottom: 2px;
 }
@@ -215,6 +220,7 @@ h1, h2, h3, h4, h5 {
 
 .fw-how-we-work .hero-unit,
 .fw-dark-matter .hero-unit,
+.fw-contact .hero-unit,
 .fw-home .hero-unit {
   background-color: transparent;
 }
