@@ -32,6 +32,7 @@ $(document).ready( function() {
 	url: '/cgi-bin/contact.php',
 	data: $("form").serialize(),
 	error:function( jqXHR, textStatus, errorThrown ) {
+	  $("#contact_thanks").attr("style","display:none;");
 	  $("#contact_error")
 	    .attr("style","display:block;")
 	    .text( "There was an error connecting to our server.  Please try again later, or contact us via email or telephone. (" + textStatus + " : " + ( errorThrown ? errorThrown : "Unknown" ) + ")" );
@@ -50,8 +51,12 @@ $(document).ready( function() {
 	      $("#"+name+"_input").val("");
 	    } );
 	    $("#contact_error").attr("style","display:none;");
+	    $("#contact_thanks")
+	      .attr("style","display:block;")
+	      .text( "Thanks, we will get back to you soon." );
 	  }
 	  else {
+	    $("#contact_thanks").attr("style","display:none;");
 	    $("#contact_error")
 	      .attr("style","display:block;")
 	      .text( "Unable to submit." + ( result.message ? result.message : "" ) );
@@ -62,6 +67,7 @@ $(document).ready( function() {
       }, 1);
     }
     else {
+	  $("#contact_thanks").attr("style","display:none;");
       $("#contact_error")
 	.attr("style","display:block;")
 	.text( "Please fill in required fields." );

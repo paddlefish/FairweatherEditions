@@ -572,6 +572,9 @@ video {
 #contact_error {
 	color: #ffcd55;
 }
+#contact_thanks {
+	color: #cdff55;
+}
 
 .fw_contact_form > form > div > div {
   margin: .8em 0;
