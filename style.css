@@ -161,12 +161,14 @@ h1, h2, h3, h4, h5 {
 
 .fw-how-we-work,
 .fw-contact,
+.fw-history,
 .fw-home {
   background-color: #a8a097;
 }
 
 .fw-how-we-work .nav,
 .fw-contact .nav,
+.fw-history .nav,
 .fw-home .nav {
   background-color: #a8a097;
 }
@@ -182,6 +184,7 @@ h1, h2, h3, h4, h5 {
 .fw-how-we-work .nav,
 .fw-dark-matter .nav,
 .fw-contact .nav,
+.fw-history .nav,
 .fw-home .nav {
   border-bottom: 1px solid black;
   width: 90%;
@@ -194,6 +197,7 @@ h1, h2, h3, h4, h5 {
 .fw-how-we-work .nav li,
 .fw-dark-matter .nav li,
 .fw-contact .nav li,
+.fw-history .nav li,
 .fw-home .nav li {
   margin: .8em 1.2em 0 1.2em;
 }
@@ -201,12 +205,14 @@ h1, h2, h3, h4, h5 {
 .fw-how-we-work .nav li a,
 .fw-dark-matter .nav li a,
 .fw-contact .nav li a,
+.fw-history .nav li a,
 .fw-home .nav li a {
   padding-bottom: 2px;
 }
 
 .fw-how-we-work .hero-unit p,
 .fw-dark-matter .hero-unit p,
+.fw-history .hero-unit p,
 .fw-home .hero-unit p {
   font-style: italic;
   font-family: "adobe-garamond-pro",sans-serif;
@@ -221,13 +227,14 @@ h1, h2, h3, h4, h5 {
 .fw-how-we-work .hero-unit,
 .fw-dark-matter .hero-unit,
 .fw-contact .hero-unit,
+.fw-history .hero-unit,
 .fw-home .hero-unit {
   background-color: transparent;
 }
 
 .fw-how-we-work h1,
 .fw-how-we-work h2,
-.fw-home h1,
+.fw-history h1,
 .fw-home h2 {
   text-align: center;
   color: #474847;
@@ -578,4 +585,15 @@ video {
 
 .fw_contact_form > form > div > div {
   margin: .8em 0;
+}
+.fw-history > .container-fluid  {
+	max-width: 1024px;
+	margin: 80px auto 0 auto;
+}
+.fw-history h1,
+.fw-history h2,
+.fw-history h3 {
+  font-family: "adobe-garamond-pro",sans-serif;
+  font-style: italic;
+  font-weight: lighter;
 }
