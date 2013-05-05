@@ -235,6 +235,8 @@ h1, h2, h3, h4, h5 {
 .fw-how-we-work h1,
 .fw-how-we-work h2,
 .fw-history h1,
+.fw-history h2,
+.fw-home h1,
 .fw-home h2 {
   text-align: center;
   color: #474847;
@@ -597,3 +599,34 @@ video {
   font-style: italic;
   font-weight: lighter;
 }
+
+/*------------------------------------------------------------------------------
+||
+|| @mark iPhone optimization
+||
+------------------------------------------------------------------------------*/
+
+@media screen and (max-device-width: 480px){
+  h1 {
+    font-size: 16px !important;
+  }
+  .hero-unit {
+    padding-bottom: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .fw-splash-nav {
+    margin-top: 0;
+  }
+  .about_someone > div {
+    padding: 0 !important;
+  }
+  .fw-home-fluid-pad {
+    padding: 0;
+  }
+  .fw-how-we-work .hero-unit p, .fw-dark-matter .hero-unit p, .fw-history .hero-unit p, .fw-home .hero-unit p {
+    text-align: left;
+    font-size: 14px;
+  }
+}
+
