@@ -602,6 +602,80 @@ video {
 
 /*------------------------------------------------------------------------------
 ||
+|| @mark iPad optimization
+||
+------------------------------------------------------------------------------*/
+
+@media screen and (max-device-width: 768px){
+  h1 {
+    font-size: 36px !important;
+  }
+  h2 {
+  }
+  .hero-unit {
+    padding-bottom: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .fw-splash-nav {
+    margin-top: 0;
+  }
+  .about_someone > div {
+    padding: 0 !important;
+  }
+  .about_someone h1, .process_entry h1 {
+    font-size: 18pt !important;
+  }
+  .fw-how-we-work .nav,
+  .fw-dark-matter .nav,
+  .fw-contact .nav,
+  .fw-history .nav,
+  .fw-home .nav {
+    font-size: 1em;
+    font-size: 10pt;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+  }
+  .navbar .nav > li > a {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .center-navbar .navbar-inner {
+    min-height: 60px;
+  }
+  .fw-home-fluid-pad {
+    padding: 0 4px 0 4px;
+  }
+  .fw-how-we-work .hero-unit p, .fw-dark-matter .hero-unit p, .fw-history .hero-unit p, .fw-home .hero-unit p {
+    font-size: 20px;
+  }
+  .fw-home h2 {
+    font-size: 18px;
+  }
+  .fw-home .fw-home-images p {
+    font-size: 14px;
+  }
+  .contact_form {
+    margin-top: 20px;
+    max-width: 80em;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-device-width: 768px) and (orientation: landscape){
+  .fw-how-we-work .nav,
+  .fw-dark-matter .nav,
+  .fw-contact .nav,
+  .fw-history .nav,
+  .fw-home .nav {
+    font-size: 13pt;
+  }
+  .navbar .nav > li > a {
+  }
+}
+
+/*------------------------------------------------------------------------------
+||
 || @mark iPhone optimization
 ||
 ------------------------------------------------------------------------------*/
@@ -624,7 +698,11 @@ video {
   .fw-home-fluid-pad {
     padding: 0;
   }
-  .fw-how-we-work .hero-unit p, .fw-dark-matter .hero-unit p, .fw-history .hero-unit p, .fw-home .hero-unit p {
+  .fw-home .hero-unit p {
+    text-align: left;
+    font-size: 18px;
+  }
+  .fw-how-we-work .hero-unit p, .fw-dark-matter .hero-unit p, .fw-history .hero-unit p {
     text-align: left;
     font-size: 14px;
   }
